@@ -1,0 +1,25 @@
+
+.ui-dialog {
+    .ui-dialog-titlebar {
+        background-color: $red-darker;
+        .ui-dialog-title {
+            color:$white;
+            font-size: 1.5rem;
+        }
+    }
+    .ui-dialog-buttonset {
+        padding:30px !important;
+        button {
+            display: flex;
+            height: 45px;
+            width: 208px;
+            border-radius: 100px;
+            background-color: #A50034;
+            text-decoration: none;
+            color: $offwhite;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+    }
+}
